@@ -18,3 +18,8 @@ export PATH="$PATH:/Users/chinmaykamjith/.bifrost/bin"
 
 export PATH="$PATH:/Users/chinmaykamjith/.bifrost/bin"
 export PATH="$HOME/.foundry/bin:$PATH"
+
+# boilersay
+export PATH="$HOME/.local/bin:$PATH"
+alias boilersay='cowsay -f train'
+alias hail='printf "Hammer Up\nBoiler Down\nHail Purdue\n" | boilersay -n'
